@@ -40,10 +40,10 @@
   "@most_popular": {
     "description": "A banner usually to show which subscription is most popular"
   },
-  "restore_purchase": "Restore purchase",
-  "manage_subscriptions_title": "Manage subscriptions",
-  "manage_subscription_google_play_title": "Manage your subscriptions on Google Play",
-  "manage_subscription_google_play_button": "Google Play Subscriptions",
+  "restore_purchase": "Käufe wiederherstellen",
+  "manage_subscriptions_title": "Abos bearbeiten",
+  "manage_subscription_google_play_title": "Abos in Google Play bearbeiten",
+  "manage_subscription_google_play_button": "Google Play Abos",
   "manage_subscription_productId": "{productId} verwalten",
   "@manage_subscription_productId": {
     "placeholders": {
@@ -53,8 +53,8 @@
       }
     }
   },
-  "manage_subscription_apple_appstore_title":  "Manage your subscriptions on the App Store",
-  "manage_subscription_apple_appstore_button": "Go to the subscriptions page",
+  "manage_subscription_apple_appstore_title":  "Abos im App Store bearbeiten",
+  "manage_subscription_apple_appstore_button": "Zur Abo-Übersicht",
   "subscription_options_title": "Subscription options",
   "premium": "Premium",
   "app_bar_default_title": "Go Premium"

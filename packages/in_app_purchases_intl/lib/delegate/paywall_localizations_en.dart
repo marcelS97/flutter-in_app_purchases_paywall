@@ -81,16 +81,16 @@ class PaywallLocalizationsEn extends PaywallLocalizations {
   String get most_popular => 'Most popular';
 
   @override
-  String get restore_purchase => 'Restore purchase';
+  String get restore_purchase => 'Käufe wiederherstellen';
 
   @override
-  String get manage_subscriptions_title => 'Manage subscriptions';
+  String get manage_subscriptions_title => 'Abos verwalten';
 
   @override
-  String get manage_subscription_google_play_title => 'Manage your subscriptions on Google Play';
+  String get manage_subscription_google_play_title => 'Verwalte Abos in Google Play';
 
   @override
-  String get manage_subscription_google_play_button => 'Google Play Subscriptions';
+  String get manage_subscription_google_play_button => 'Google Play Abos';
 
   @override
   String manage_subscription_productId(String productId) {
@@ -98,10 +98,10 @@ class PaywallLocalizationsEn extends PaywallLocalizations {
   }
 
   @override
-  String get manage_subscription_apple_appstore_title => 'Manage your subscriptions on the App Store';
+  String get manage_subscription_apple_appstore_title => 'Verwalte Abos im App Store';
 
   @override
-  String get manage_subscription_apple_appstore_button => 'Go to the subscriptions page';
+  String get manage_subscription_apple_appstore_button => 'Zur Abo-Übersicht';
 
   @override
   String get subscription_options_title => 'Subscription options';
