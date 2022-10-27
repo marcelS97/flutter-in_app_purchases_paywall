@@ -41,15 +41,14 @@ class _ActivePlanGooglePlayGeneralWidget extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text(PaywallL10NHelper.of(context)
-                .manage_subscription_google_play_title),
+            Text("Verwalte deine Abos"),
             SizedBox(height: 12),
             ElevatedButton(
                 onPressed: () async {
                   await launchUrlString(plan.link);
                 },
-                child: Text(PaywallL10NHelper.of(context)
-                    .manage_subscription_google_play_button))
+                child: Text("Abos in Google Play")
+            )
           ],
         ),
       ),
@@ -71,15 +70,13 @@ class _ActivePlanGooglePlayWidget extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text(PaywallL10NHelper.of(context)
-                .manage_subscription_google_play_title),
+            Text("Verwalte deine Abos"),
             SizedBox(height: 12),
             ElevatedButton(
                 onPressed: () async {
                   await launchUrlString(plan.link);
                 },
-                child: Text(PaywallL10NHelper.of(context)
-                    .manage_subscription_productId(plan.productId)))
+                child: Text("Abos von " + plan.productId))
           ],
         ),
       ),

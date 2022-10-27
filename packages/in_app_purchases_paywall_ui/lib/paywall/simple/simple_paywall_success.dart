@@ -49,7 +49,7 @@ class SimplePaywallSuccess extends StatelessWidget {
           Padding(
             padding: const PageInsets.normal(),
             child: Text(
-              PaywallL10NHelper.of(context).manage_subscriptions_title,
+              "Abos verwalten",
               style: Theme.of(context).textTheme.titleMedium,
             ),
           ),
