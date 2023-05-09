@@ -47,7 +47,7 @@ class _ActivePlanGooglePlayGeneralWidget extends StatelessWidget {
                 onPressed: () async {
                   await launchUrlString(plan.link);
                 },
-                child: Text("Abos in Google Play")
+                child: Text("Meine Abos")
             )
           ],
         ),
@@ -98,15 +98,13 @@ class _ActivePlanAppleAppStoreGeneralWidget extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text(PaywallL10NHelper.of(context)
-                .manage_subscription_apple_appstore_title),
+            Text("Verwalte deine Abos"),
             SizedBox(height: 12),
             ElevatedButton(
                 onPressed: () async {
                   await launchUrlString(plan.link);
                 },
-                child: Text(PaywallL10NHelper.of(context)
-                    .manage_subscription_apple_appstore_button))
+                child: Text("Meine Abos"))
           ],
         ),
       ),
