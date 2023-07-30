@@ -16,7 +16,7 @@ dependencies:
   flutter_inappwebview: ^5.7.2+3
   in_app_purchases_interface: ^1.0.0
   url_launcher: ^6.1.11
-  in_app_purchases_intl: ^1.0.0
+  in_app_purchases_intl: ^0.0.6
   responsive_spacing: ^1.1.0
 
 dev_dependencies:
