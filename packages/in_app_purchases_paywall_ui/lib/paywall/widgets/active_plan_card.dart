@@ -45,7 +45,7 @@ class _ActivePlanGooglePlayGeneralWidget extends StatelessWidget {
             SizedBox(height: 12),
             ElevatedButton(
                 onPressed: () async {
-                  await launchUrlString(plan.link);
+                  await launchUrlString(plan.link, mode: LaunchMode.externalApplication);
                 },
                 child: Text("Meine Abos")
             )
@@ -74,7 +74,7 @@ class _ActivePlanGooglePlayWidget extends StatelessWidget {
             SizedBox(height: 12),
             ElevatedButton(
                 onPressed: () async {
-                  await launchUrlString(plan.link);
+                  await launchUrlString(plan.link, mode: LaunchMode.externalApplication);
                 },
                 child: Text("Abos von " + plan.productId))
           ],
@@ -102,7 +102,7 @@ class _ActivePlanAppleAppStoreGeneralWidget extends StatelessWidget {
             SizedBox(height: 12),
             ElevatedButton(
                 onPressed: () async {
-                  await launchUrlString(plan.link);
+                  await launchUrlString(plan.link, mode: LaunchMode.externalApplication);
                 },
                 child: Text("Meine Abos"))
           ],
